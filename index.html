@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Livelihoods</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <div class="logo">
+                <img src="Screenshot (269).jpg" alt="Access Livelihoods">
+            </div>
+            <div class="menu-icon" id="menu-icon">
+                &#9776; <!-- This is the hamburger icon -->
+            </div>
+            <ul id="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#communities">Communities</a></li>
+                <li><a href="#models">Livelihood Models</a></li>
+                <li><a href="#platforms">Innovative Platforms</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+        document.getElementById('menu-icon').onclick = function() {
+            var navMenu = document.getElementById('nav-menu');
+            if (navMenu.style.display === 'block') {
+                navMenu.style.display = 'none';
+            } else {
+                navMenu.style.display = 'block';
+            }
+        };
+    </script>
+
+    <main>
+        <section id="home">
+            <div class="swiper-container hero-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://img.freepik.com/free-photo/abstract-surface-textures-white-concrete-stone-wall_74190-8189.jpg?size=626&ext=jpg&ga=GA1.1.44546679.1717027200&semt=ais_user" alt="Image 1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://img-cdn.thepublive.com/fit-in/1200x675/filters:format(webp)/startuppedia/media/post_banners/wp-content/uploads/2022/09/Top-5-Indian-innovation-that-can-be-a-helping-hand-for-farmer-1-1.png" alt="Image 2">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://c8.alamy.com/comp/2J69FK5/group-of-happy-smiling-village-school-kids-in-uniform-standing-at-middle-paddy-field-by-looking-camera-concept-of-friendship-education-and-2J69FK5.jpg" alt="Image 3">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="smallbusiness11-2.jpg" alt="Image 4">
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <h1>Access Livelihoods</h1>
+                <p>Reimagining Livelihoods, Empowering Communities</p>
+                <p>We are working to shape the future of the Development Sector</p>
+            </div>
+        </section>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var swiper = new Swiper('.hero-swiper', {
+                    loop: true,
+                    autoplay: {
+                        delay: 5000,
+                        disableOnInteraction: false,
+                    },
+                    effect: 'fade', // You can change this to 'slide' if you prefer
+                    fadeEffect: {
+                        crossFade: true,
+                    },
+                });
+            });
+        </script>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Access Livelihoods (AL) is a group of Hyderabad-based social enterprises that work with marginalised communities to reimagine their livelihoods...</p>
+    <!-- More content here -->
+</section>
+
+<section id="communities">
+    <h2>Communities</h2>
+    <div class="community-grid">
+        <p>Ninety-two percent of India's labour force, or 63% of the country's GDP, is unorganised. Just 25% of non-farm workers are organised; the majority of the agriculture sector is classified as informal. The value that these communities contribute to is not fairly distributed to them.
+
+            ALC India focuses on the livelihoods of ten sizable communities in order to spark the development of businesses and jobs, so initiating the process of their transition towards self-sufficiency.</p>
+    </div>
+
+<div class="tab-container">
+    <div class="tab-buttons">
+        <button class="tab-button active" onclick="openTab(event, 'models')">Livelihood Models</button>
+        <button class="tab-button" onclick="openTab(event, 'platforms')">Innovative Platforms</button>
+        <button class="tab-button" onclick="openTab(event, 'services')">services Platforms</button>
+        
+    </div>
+    <div id="models" class="tab-content active">
+        <h2>Livelihood Models</h2>
+        <div class="model-grid">
+            <div class="card-grid">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1530507629858-e4977d30e9e0?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGRvbm5lJTIwaW4lMjBhZ3JpY29sdHVyYXxlbnwwfHwwfHx8MA%3D%3D" alt="Small & Marginal Farmers">
+                    <div class="card-content">
+                        <h3>Small & Marginal Farmers</h3>
+                        <p>Small & Marginal Farmers</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPRkS6rKyiAnZ1qnJKyGK5RkSIBKVW7hq_Jw&s" alt="Artisans & Weavers">
+                    <div class="card-content">
+                        <h3>Artisans & Weavers</h3>
+                        <p>Assetless and Small Artisans and Weavers</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://www.indianetzone.com/photos_gallery/77/Fishing_in_Indian_Villages.jpg" alt="Livestock Holders & Fisherfolk">
+                    <div class="card-content">
+                        <h3>Livestock Holders & Fisherfolk</h3>
+                        <p>Small Livestock Holders & Fisherfolk</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://worldforestvoices.wordpress.com/wp-content/uploads/2022/03/additional-picture1.png?w=904" alt="Forest Produce Gatherers">
+                    <div class="card-content">
+                        <h3>Forest Produce Gatherers</h3>
+                        <p>Forest Produce Gatherers</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://www.tatatrusts.org/Upload/Images/thumbnail/asharam-patel.jpg" alt="Wage Labour, including Migrant Labour">
+                    <div class="card-content">
+                        <h3>Wage Labour, including Migrant Labour</h3>
+                        <p>Wage Labour, including Migrant Labour</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://st3.depositphotos.com/32740318/37613/i/1600/depositphotos_376139426-stock-photo-sheet-metal-hollow-block-shanty.jpg" alt="Urban Marginalized">
+                    <div class="card-content">
+                        <h3>Urban Marginalized</h3>
+                        <p>Urban Marginalized</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://img.jagranjosh.com/imported/images/E/GK/msme-definition-2020-new.jpg" alt="Micro & Small Entrepreneurs">
+                    <div class="card-content">
+                        <h3>Micro & Small Entrepreneurs</h3>
+                        <p>Micro and Small Entrepreneurs</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://www.borgenmagazine.com/wp-content/uploads/2014/06/Disaster_Relief.jpg" alt="Disaster Prone Communities">
+                    <div class="card-content">
+                        <h3>Disaster Prone Communities</h3>
+                        <p>Disaster Prone Communities</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/71N9tgtPiaL._AC_UF1000,1000_QL80_.jpg" alt="Internally Displaced Communities">
+                    <div class="card-content">
+                        <h3>Internally Displaced Communities</h3>
+                        <p>Internally Displaced Communities</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://www.pih.org/sites/default/files/styles/article_xlarge/public/2022-04/malawi_202202_cyclone_ana_distro_02.jpg?itok=w2iU3M8B" alt="Other Vulnerable Communities">
+                    <div class="card-content">
+                        <h3>Other Vulnerable Communities</h3>
+                        <p>Other Vulnerable Communities</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="platforms" class="tab-content">
+      <div class="platform-grid">
+        <h2>Innovative Platforms that Shape the Livelihoods Environment</h2>
+        <p>
+          Livelihood ecosystems can thrive only in environments that enable their sustenance and growth. We aim to ensure this through our platforms. ALC India is currently engaged in creating platforms that focus on finance of livelihoods, human resources required for the livelihoods sector, knowledge for practitioners in the livelihoods sector and a platform for the communities who are the ultimate stakeholders.
+        </p>
+        <div class="platform-cards">
+          <div class="platform-card">
+            <img src="https://i.ytimg.com/vi/X22uNzGSf2s/sddefault.jpg" alt="Other Vulnerable Communities">
+            <h3>Reimagine Learning</h3>
+            <p>An open-source knowledge platform</p>
+          </div>
+          <div class="platform-card">
+            <img src="https://img.freepik.com/free-vector/finance-financial-performance-concept-illustration_53876-40450.jpg" alt="Other Vulnerable Communities">
+            <h3>Reimagine Finnace</h3>
+            <p>Connecting investors and social enterprises</p>
+          </div>
+          <div class="platform-card">
+            <img src="https://spark.ngo/wp-content/uploads/2021/11/Website_Thumbnail.png" alt="Other Vulnerable Communities">
+            <h3>Reimagine Opportunities</h3>
+            <p>Connecting engagement seekers and engagement</p>
+          </div>
+          <div class="platform-card">
+            <img src="https://s24806.pcdn.co/wp-content/uploads/2022/12/Closing-Keynote-Photo_11-04-2022-1-1-e1671559700803.jpeg" alt="Other Vulnerable Communities">
+            <h3>Reimagine Communities</h3>
+            <p>A forum to sing the songs of the unsung communities</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="services" class="tab-content">
+      <div class="service-grid">
+        <h2>Our Services and Impact</h2>
+        <p>
+          Our work has taken us across 17 States in India and Afghanistan. Working across a large, diverse geographical area has helped us realise the need for developing and customizing models that work in specific environments.
+        </p>
+        <div class="service-cards">
+          <div class="service-card">
+            <img src="https://cdn.pixabay.com/photo/2015/11/03/08/56/service-1019821_640.jpg" alt="Services">
+            <h3>Services</h3>
+            <p>Learn about our portfolio of services</p>
+          </div>
+          <div class="service-card">
+            <img src="https://t3.ftcdn.net/jpg/04/85/97/38/360_F_485973884_drCPPzZkWuTEPemKQtkSpyequZhlGCEe.jpg" alt="Case Studies">
+            <h3>Case Studies</h3>
+            <p>Learn about our significant interventions</p>
+          </div>
+          <div class="service-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ukFZPdLuHq8Pe5jgYIOFfluJhIvP0GOGSA&s" alt="Visual Profile">
+            <h3>Visual Profile</h3>
+            <p>Explore our work through an interactive map</p>
+          </div>
+          <div class="service-card">
+            <img src="https://images.unsplash.com/photo-1572177812156-58036aae439c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHN8ZW58MHx8MHx8fDA%3D" alt="Projects">
+            <h3>Projects</h3>
+            <p>Read about our projects across domains</p>
+          </div>
+          <div class="service-card">
+            <img src="https://reputationtoday.in/wp-content/uploads/2020/04/4d8dd-students-in-community.001.png" alt="Communities">
+            <h3>Communities</h3>
+            <p>Understand the communities and their issues</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+<section>
+<div class="unique-container">
+  <div class="unique-box">
+    <span></span>
+    <div class="unique-content">
+      <h2>Transform Education</h2>
+      <p>Discover an open-source knowledge platform that transforms education. Access, share, and collaborate to elevate your learning experience. Join the movement to democratize knowledge for all.</p>
+      <a href="https://www.alcindia.org/platforms/show/reimagine-learning">Read More</a>
+    </div>
+  </div>
+  <div class="unique-box">
+    <span></span>
+    <div class="unique-content">
+      <h2>Revolutionize Finance</h2>
+      <p>Unleash the power of finance to drive social impact. Connect investors with innovative social enterprises, creating a sustainable future for all. Redefine investment as a force for positive change.</p>
+      <a href="https://www.alcindia.org/platforms/show/reimagine-finance">Read More</a>
+    </div>
+  </div>
+  <div class="unique-box">
+    <span></span>
+    <div class="unique-content">
+      <h2>Explore New Horizons</h2>
+      <p>Unlock endless possibilities by connecting seekers of engagement with diverse opportunities. Empower individuals and organizations to thrive through meaningful connections. Redefine engagement as a catalyst for growth and fulfillment.</p>
+      <a href="#">Read More</a>
+    </div>
+  </div>
+</div></section>
+<script>document.addEventListener('DOMContentLoaded', (event) => {
+    function openTab(evt, tabName) {
+        let i, tabcontent, tabbuttons;
+
+        tabcontent = document.getElementsByClassName('tab-content');
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = 'none';
+        }
+
+        tabbuttons = document.getElementsByClassName('tab-button');
+        for (i = 0; i < tabbuttons.length; i++) {
+            tabbuttons[i].className = tabbuttons[i].className.replace(' active', '');
+        }
+
+        document.getElementById(tabName).style.display = 'block';
+        evt.currentTarget.className += ' active';
+    }
+
+    // Show default tab
+    document.getElementById('models').style.display = 'block';
+});
+
+function openTab(evt, tabName) {
+    let i, tabcontent, tabbuttons;
+
+    tabcontent = document.getElementsByClassName('tab-content');
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = 'none';
+    }
+
+    tabbuttons = document.getElementsByClassName('tab-button');
+    for (i = 0; i < tabbuttons.length; i++) {
+        tabbuttons[i].className = tabbuttons[i].className.replace(' active', '');
+    }
+
+    document.getElementById(tabName).style.display = 'block';
+    evt.currentTarget.className += ' active';
+}
+</script>
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+    </main>
+
+    <footer>
+        <p>© Access Livelihoods 2023 | Designed by Centre Of Gravity | Developed by Thrymr Software</p>
+        <div class="tooltip-container-wrapper">
+        <div class="tooltip-container">
+            <div class="tooltip">
+              <div class="profile">
+                <div class="user">
+                  <div class="img"></div>
+                  <div class="details">
+                    <div class="name">Access Livelihoods</div>
+                    <div class="username">@https://www.instagram.com/access.livelihoods/</div>
+                  </div>
+                </div>
+                <div class="about">1000+ Followers</div>
+              </div>
+            </div>
+            <div class="text">
+              <a class="icon" href="https://www.instagram.com/access.livelihoods/">
+                <div class="layer">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span class="instagramSVG">
+                    <svg fill="white" class="svgIcon" viewBox="0 0 448 512" height="1.5em" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                    </svg>
+                  </span>
+                </div>
+                <div class="text">Instagram</div>
+              </a>
+            </div>
+          </div>
+          <div class="tooltip-container">
+            <div class="tooltip youtube">
+              <div class="profile">
+                <div class="user">
+                  <div class="img"></div>
+                  <div class="details">
+                    <div class="name">Access Livelihoods</div>
+                    <div class="username">@https://www.youtube.com/c/AccessLivelihoods</div>
+                  </div>
+                </div>
+                <div class="about">5k Subscribers</div>
+              </div>
+            </div>
+            <div class="text youtube">
+              <a class="icon" href="https://www.youtube.com/c/AccessLivelihoods">
+                <div class="layer">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span class="youtubeSVG">
+                    <svg fill="white" class="svgIcon" viewBox="0 0 576 512" height="1.5em" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M549.655 124.083C524.91 68.517 476.794 36.8 419.792 27.648 373.292 20.607 298.434 19.029 255.875 19.029s-117.417 1.578-163.917 8.619C99.206 36.8 51.09 68.517 26.345 124.083 5.566 165.679 0 219.429 0 274.991s5.566 109.312 26.345 150.908C51.09 443.482 99.206 475.2 156.208 484.351 202.709 491.392 277.567 493.03 320.126 493.03s117.417-1.638 163.917-8.619C476.794 475.2 524.91 443.482 549.655 388.919c20.779-41.596 26.345-95.347 26.345-150.908s-5.566-109.312-26.345-150.908zM232.101 347.856v-153.7l142.608 76.789-142.608 76.911z"></path>
+                    </svg>
+                  </span>
+                </div>
+                <div class="text">YouTube</div>
+              </a>
+            </div>
+          </div>
+          <div class="tooltip-container website">
+            <div class="tooltip website">
+              <div class="profile">
+                <div class="user">
+                  <div class="img website"></div>
+                  <div class="details">
+                    <div class="name">Access Livelihoods</div>
+                    <div class="username">@https://www.alcindia.org/#</div>
+                  </div>
+                </div>
+                <div class="about">Visit our Website</div>
+              </div>
+            </div>
+            <div class="text website">
+              <a class="icon" href="https://www.alcindia.org/#">
+                <div class="layer">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span class="websiteSVG">
+                    <svg fill="white" class="svgIcon" viewBox="0 0 512 512" height="1.5em" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 455.27C136.92 463.27 48.73 375.08 48.73 256 48.73 136.92 136.92 48.73 256 48.73c119.08 0 207.27 88.19 207.27 207.27 0 119.08-88.19 207.27-207.27 207.27zm0-378.54c-94.2 0-170.8 76.6-170.8 170.8s76.6 170.8 170.8 170.8 170.8-76.6 170.8-170.8-76.6-170.8-170.8-170.8zm0 311.56c-77.55 0-140.75-63.2-140.75-140.75S178.45 114.27 256 114.27s140.75 63.2 140.75 140.75-63.2 140.75-140.75 140.75zm89.25-190.75h-38.5v-38.5c0-9.95-8.05-18-18-18s-18 8.05-18 18v38.5h-38.5c-9.95 0-18 8.05-18 18s8.05 18 18 18h38.5v38.5c0 9.95 8.05 18 18 18s18-8.05 18-18v-38.5h38.5c9.95 0 18-8.05 18-18s-8.05-18-18-18z"></path>
+                    </svg>
+                  </span>
+                </div>
+                <div class="text">Website</div>
+              </a>
+            </div>
+          </div>
+          
+          <div class="tooltip-container fab">
+            <div class="tooltip facebook">
+              <div class="profile">
+                <div class="user">
+                  <div class="img"></div>
+                  <div class="details">
+                    <div class="name">Access Livelihoods</div>
+                    <div class="username">@https://www.facebook.com/accesslivelihoods.org</div>
+                  </div>
+                </div>
+                <div class="about">9.4k Followers</div>
+              </div>
+            </div>
+            <div class="text facebook">
+              <a class="icon" href="https://www.facebook.com/accesslivelihoods.org">
+                <div class="layer">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span class="facebookSVG">
+                    <svg fill="#fff" class="svgIcon" viewBox="0 0 320 512" height="1.8em" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M176 512V279h-49v-72h49v-47c0-48 28-74 71-74h58v59h-41c-14 0-16 6-16 16v35h57l-7 72h-50v233h-61z"></path>
+                    </svg>
+                  </span>
+                </div>
+                <div class="text">Facebook</div>
+              </a>
+            </div>
+          </div>
+          <div class="tooltip-container fab">
+            <div class="tooltip linkedin">
+              <div class="profile">
+                <div class="user">
+                  <div class="img"></div>
+                  <div class="details">
+                    <div class="name">Access Livelihoods</div>
+                    <div class="username">@https://in.linkedin.com/company/access-livelihoods</div>
+                  </div>
+                </div>
+                <div class="about">19k Followers</div>
+              </div>
+            </div>
+            <div class="text LinkedIn">
+              <a class="icon" href="https://in.linkedin.com/company/access-livelihoods">
+                <div class="layer">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span class="linkedinSVG">
+                    <svg fill="#fff" class="svgIcon" viewBox="0 0 448 512" height="1.9em" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H76V204.3h59.4V416zm-29.7-240c-19.8 0-35.8-16-35.8-35.8 0-19.8 16-35.8 35.8-35.8s35.8 16 35.8 35.8c-.1 19.8-16.1 35.8-35.8 35.8zM406 416h-59.4V299c0-30.3-.6-69.3-42.1-69.3-42.1 0-48.6 32.9-48.6 66.8V416h-59.4V204.3h57.7v35.5h.8c8.1-15.3 27.9-31.5 57.1-31.5 61.1 0 72.4 40.3 72.4 92.8V416z"></path>
+                    </svg>
+                  </span>
+                </div>
+                <div class="text">LinkedIn</div>
+              </a>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript to show the modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Apply for Joining This NGO</h2>
+            <p>If you are interested in making a difference and joining our efforts, please contact us!</p>
+            <a href="https://tii.alcindia.org/reimagine_farmer_enterprises/register.php">Apply Now</a>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function() {
+            var modal = document.getElementById('myModal');
+            var span = document.getElementsByClassName('close')[0];
+            modal.style.display = 'block';
+            span.onclick = function() {
+                modal.style.display = 'none';
+            }
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = 'none';
+                }
+            }
+        };
+    </script>
+</body>
+</html>
